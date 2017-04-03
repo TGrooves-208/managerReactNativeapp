@@ -5,7 +5,8 @@ import firebase from 'firebase';
 import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
 import Router from './Router';
-
+// React - Native app with Firebase authentication using the functionality
+// of adding and deleting employees referencing key value attributes
 class App extends Component {
   componentWillMount() {
     const config = {
